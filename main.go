@@ -1,8 +1,10 @@
 package main
 
-import "github.com/zhanxiaox/roy/route"
+import "github.com/zhanxiaox/roy/router"
 
 func main() {
 
-	route.Run()
+	router.Setup()
+
+	router.Run()
 }
